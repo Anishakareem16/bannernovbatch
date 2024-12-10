@@ -7,3 +7,30 @@
     height: 480px;   
     color: white; 
 }
+.nav-bar{
+    position: absolute;
+    /* placing objects with respect to parents */
+    top: 0;
+    width: 100%;
+    /* entire width of banner */
+    background-color: grey;
+    padding: 10px 20px;
+    display: flex;
+    /* same line placing */
+    justify-content: space-between;
+    /* equally spaced aligned */
+    align-items: center;
+    /* vertically aligning */
+}
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    /* to remove underline */
+    margin: 0  10px;
+    font-weight: bold;
+}
+.nav-bar a:hover {
+    text-decoration: underline;
+    /* only time of hovering a tag gets slected */
+
+}
